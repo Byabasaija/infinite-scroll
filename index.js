@@ -16,7 +16,7 @@ function getScrollTop() {
 
 function generateImageSourceUrl() {
     const hash = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
-    return 'https://api.unsplash.com/photos/?client_id= S0cbfg11bqrvrnYPVgEA7HvvgBxqeR4rYrwxSIEymts';
+    return "https://images.unsplash.com/photo-1595303526913-c7037797ebe7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1529&q=80";
 }
 
 function getElementImage() {
